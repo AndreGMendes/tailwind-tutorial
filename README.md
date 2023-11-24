@@ -67,3 +67,13 @@ git pull origin main
 # Shorthand for pulling commits into local branch that is tracking a remote branch
 git pull
 # The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. The git pull command is a combination of git fetch and git merge. git pull will download the content from the remote repository. Once the content is downloaded, git merge will merge the content to your local repository. A new merge commit will be created and HEAD updated to point at the new commit.
+
+
+# Copy a version of a file from one branch to another. 
+# Run this from the branch where you want the file to end up:
+# File names are Case Sensitive!
+git checkout otherBranch myfile.txt
+
+
+# Checksout to the specific branch name.
+git checkout branchName
